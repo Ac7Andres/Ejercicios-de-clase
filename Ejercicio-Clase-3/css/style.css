@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nav1 {
+    display: flex;
+    font-size: 35px;
+    width: 100%;
+}
+
+.Nav1 .Work {
+    margin-left: 40%;
+}
+
+.Nav1 .Studio {
+    margin-left: 10%;
+}
+
+.Middle {
+    align-items: flex-start;
+    margin-top: 8%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.Middle .First {
+    font-size: 30px;
+    width: 750px;
+}
+
+.Middle .Nav2 {
+    display: flex;
+    font-size: 12px;
+    color: gray;
+}
