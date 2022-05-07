@@ -1,0 +1,27 @@
+.general-txt, .item p, .item h2 {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  padding: 10% 10%;
+  background-color: #f17108f6;
+}
+
+.item {
+  background-color: #cdcdcd;
+}
+
+.item p {
+  color: #000;
+}
+
+.item h2 {
+  color: #f17108f6;
+}
+/*# sourceMappingURL=base.css.map */
