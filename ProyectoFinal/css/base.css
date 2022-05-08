@@ -1,18 +1,18 @@
 body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.img {
-  width: 65%;
+  width: 100%;
+  border: 3px solid #222;
 }
 
 li {
-  margin-left: 4%;
+  margin-left: 7%;
   display: inline;
   font-size: 16px;
   font-weight: 450;
   color: #3A567D;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 li:hover {
@@ -21,16 +21,17 @@ li:hover {
 
 header {
   background-color: #ffff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .v-line {
   border-left: solid #3A567D;
   border-width: 1px;
   height: 5%;
-  right: 2%;
+  right: 11%;
   top: 1.5%;
   padding-left: 20px;
-  position: fixed;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -47,6 +48,7 @@ header {
   border-style: solid;
   padding-top: 5px;
   padding-bottom: 5px;
+  flex-wrap: wrap;
 }
 
 .botones .boton2 {
@@ -60,21 +62,22 @@ header {
   background-color: #073256;
   border-color: #073256;
   border-style: solid;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .height1 {
   height: 600px;
-  padding-top: 10px;
-  padding-bottom: 200px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .title {
-  display: block;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-left: 400px;
 }
 
 .title1 {
@@ -87,19 +90,17 @@ header {
   color: #afc3d3;
 }
 
-.img-cohete {
-  padding-top: 30rem;
-}
-
 .height2 {
   background-color: rgba(58, 86, 125, 0.1);
   height: 600px;
   border: 1px solid #ff0000;
   padding-top: 50px;
   padding-bottom: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+}
+
+.subtitle {
+  margin-left: 45%;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -116,5 +117,26 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.height4 {
+  background-color: #f8f9fa;
+  height: 450px;
+  border: 1px solid #24dc61;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cohete-img {
+  margin-top: 100px;
 }
 /*# sourceMappingURL=base.css.map */
